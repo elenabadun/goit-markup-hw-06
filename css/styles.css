@@ -557,7 +557,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-    padding: 0 108px;
   }
 
   .team-list-item {
@@ -578,3 +577,13 @@ img {
 }
 
 /*-------------Team Styles------------*/
+
+/*------------Portfolio Styles------------*/
+
+/* Portfolio Styles Mobil */
+
+/* Portfolio Styles Tablet */
+
+/* Portfolio Styles Desktop */
+
+/*------------/Portfolio Styles------------*/
