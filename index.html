@@ -54,6 +54,24 @@
           </li>
         </ul>
       </address>
+      <button class="burger-button" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <div class="mobil-menu hidden">
+        <div class="container mobil-menu-container">
+          <button class="mobil-menu-close"></button>
+          <nav></nav>
+          <address></address>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
       </div>
     </header>
     <main>
@@ -69,7 +87,7 @@
       </section>
 
       <!--Our Benefits-->
-      <section class="benefits-section ">
+      <section class="benefits-section hidden">
         <div class="container">
           <h2 class="visually-hidden">Our Benefits</h2>
         <ul class="benefits-list">
@@ -145,7 +163,7 @@
       </section>
 
       <!--Team-->
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -313,7 +331,7 @@
 
       <!--Our Portfolio-->
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -413,7 +431,7 @@
     </main>
 
     <!--Footer-->
-<footer class="page-footer">
+<footer class="page-footer hidden">
       <div class="container footer-container footer-wrapper">
         <div class="footer-content">
            <a class="logo footer-logo" href="./index.html"
@@ -475,7 +493,7 @@
     </footer>
 
 <!-- Modal window-->
-<div class="modal-backdrop">
+<div class="modal-backdrop hidden">
   <div class="modal">
 <button class="modal-close-button" type="button">
     <svg class="modal-close-icon" width="8" height="8">
