@@ -170,7 +170,7 @@ img {
 
 /*-------------Hero Styles-------------*/
 
-.hero-section {
+/* .hero-section {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -180,9 +180,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   padding: 188px 0;
-}
+} */
 
-.main-title {
+/* .main-title {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -194,9 +194,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-}
+} */
 
-.button {
+/* .button {
   display: block;
   border-radius: 4px;
   border: none;
@@ -211,33 +211,34 @@ img {
   color: #ffffff;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.button:hover,
+/* .button:hover,
 .button:focus,
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: #404bbf;
-}
+} */
+
 /*----------------/Hero--------------*/
 
 
 /*--------------Benefits-------------*/
 
-.benefits-section {
+/* .benefits-section {
   padding: 120px 0;
-}
+} */
 
-.benefits-list {
+/* .benefits-list {
   display: flex;
   gap: 24px;
-}
+} */
 
-.benefits-list-item {
+/* .benefits-list-item {
   width: calc((100% - 72px) / 4);
-}
+} */
 
-.benefits-item-icon-wrapper {
+/* .benefits-item-icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,23 +248,23 @@ img {
   height: 112px;
   background: #f4f4fd;
   margin-bottom:  8px;
-}
+} */
 
-.benefits-list-title {
+/* .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
+} */
 
-.benefits-list-text {
+/* .benefits-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-}
+} */
 
 /*------------/Benefits------------*/
 
@@ -274,13 +275,13 @@ img {
   padding: 120px 0;
 }
 
-.team-title {
+/* .team-title {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.team-title,
+/* .team-title,
 .portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -290,9 +291,9 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-}
+} */
 
-.team-list {
+/* .team-list {
   display: flex;
   gap: 24px;
 }
@@ -302,9 +303,9 @@ img {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px; 
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
-.team-container {
+/* .team-container {
   display: block;
   align-items: center;
   padding: 32px 0;
@@ -350,7 +351,7 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
-}
+} */
 
 /*---------------/Team--------------*/
 
