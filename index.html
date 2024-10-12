@@ -54,14 +54,21 @@
             </li>
           </ul>
         </address>
-        <button class="burger-button" type="button">
+        <button class="burger-button" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
-        <div class="mobile-menu is-open">
+
+        <!------- Mobile Menu-------->
+
+        <div class="mobile-menu data-menu">
           <div class="container mobile-menu-container">
-            <button class="mobile-menu-close-button" type="button">
+            <button
+              class="mobile-menu-close-button"
+              type="button"
+              data-menu-close
+            >
               <svg class="mobile-menu-close-button-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
@@ -83,11 +90,15 @@
               <ul class="mobile-menu-contacts-list">
                 <li class="mobile-menu-contacts-item">
                   <a class="mobile-menu-contacts-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a>
+                    >+11 (000) 111-11-11</a
+                  >
                 </li>
                 <li class="mobile-menu-contacts-item">
-                  <a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a>
+                  <a
+                    class="mobile-menu-contacts-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
                 </li>
               </ul>
             </address>
@@ -96,34 +107,36 @@
               <li class="mobile-menu-social-item">
                 <a href="" class="mobile-menu-social-link">
                   <svg class="mobile-menu-social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="mobile-menu-social-item">
                 <a href="" class="mobile-menu-social-link">
                   <svg class="mobile-menu-social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
               <li class="mobile-menu-social-item">
                 <a href="" class="mobile-menu-social-link">
                   <svg class="mobile-menu-social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="mobile-menu-social-item">
                 <a href="" class="mobile-menu-social-link">
                   <svg class="mobile-menu-social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use> 
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
                 </a>
-                </svg>
               </li>
             </ul>
           </div>
         </div>
+
+        <!------- /Mobile Menu-------->
       </div>
     </header>
     <main>
@@ -131,7 +144,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -443,7 +458,6 @@
             </li>
             <li class="portfolio-list-item">
               <div class="portfolio-photo">
-                 <div class="portfolio-photo">
                 <picture>
                   <source
                     srcset="
@@ -454,7 +468,7 @@
                   />
                   <source
                     srcset="
-                      ./images/portfolio/cashless_payment_tab.jpg   1x,
+                      ./images/portfolio/cashless_payment_tab.jpg    1x,
                       ./images/portfolio/cashless_payment_tab@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
@@ -466,10 +480,10 @@
                     "
                     media="(max-width: 767px)"
                   />
-                   <img
-                  src="./images/portfolio/cashless_payment.jpg"
-                  alt="Cashless Payment"
-                />
+                  <img
+                    src="./images/portfolio/cashless_payment.jpg"
+                    alt="Cashless Payment"
+                  />
                 </picture>
 
                 <p class="portfolio-overlay-content">
@@ -495,7 +509,7 @@
                   />
                   <source
                     srcset="
-                      ./images/portfolio/meditation_app_tab.jpg   1x,
+                      ./images/portfolio/meditation_app_tab.jpg    1x,
                       ./images/portfolio/meditation_app_tab@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
@@ -508,11 +522,11 @@
                     media="(max-width: 767px)"
                   />
                   <img
-                  src="./images/portfolio/meditation_app.jpg"
-                  alt="Meditation App on the different devices"
-                />
+                    src="./images/portfolio/meditation_app.jpg"
+                    alt="Meditation App on the different devices"
+                  />
                 </picture>
-                
+
                 <p class="portfolio-overlay-content">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -536,7 +550,7 @@
                   />
                   <source
                     srcset="
-                      ./images/portfolio/driver_in_auto_tab.jpg   1x,
+                      ./images/portfolio/driver_in_auto_tab.jpg    1x,
                       ./images/portfolio/driver_in_auto_tab@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
@@ -549,11 +563,11 @@
                     media="(max-width: 767px)"
                   />
                   <img
-                  src="./images/portfolio/driver_in_auto.jpg"
-                  alt="Taxi driver"
+                    src="./images/portfolio/driver_in_auto.jpg"
+                    alt="Taxi driver"
                   />
                 </picture>
-              
+
                 <p class="portfolio-overlay-content">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -577,7 +591,7 @@
                   />
                   <source
                     srcset="
-                      ./images/portfolio/screen_of_phone_tab.jpg   1x,
+                      ./images/portfolio/screen_of_phone_tab.jpg    1x,
                       ./images/portfolio/screen_of_phone_tab@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
@@ -590,8 +604,8 @@
                     media="(max-width: 767px)"
                   />
                   <img
-                  src="./images/portfolio/screen_of_phone.jpg"
-                  alt="Phone's screen"
+                    src="./images/portfolio/screen_of_phone.jpg"
+                    alt="Phone's screen"
                   />
                 </picture>
 
@@ -608,7 +622,7 @@
             </li>
             <li class="portfolio-list-item">
               <div class="portfolio-photo">
-                                <picture>
+                <picture>
                   <source
                     srcset="
                       ./images/portfolio/happy_woman.jpg    1x,
@@ -618,7 +632,7 @@
                   />
                   <source
                     srcset="
-                      ./images/portfolio/happy_woman_tab.jpg   1x,
+                      ./images/portfolio/happy_woman_tab.jpg    1x,
                       ./images/portfolio/happy_woman_tab@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
@@ -631,11 +645,11 @@
                     media="(max-width: 767px)"
                   />
                   <img
-                  src="./images/portfolio/happy_woman.jpg"
-                  alt="Happy woman"
+                    src="./images/portfolio/happy_woman.jpg"
+                    alt="Happy woman"
                   />
                 </picture>
-              
+
                 <p class="portfolio-overlay-content">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -720,9 +734,9 @@
     </footer>
 
     <!-- Modal window-->
-    <div class="modal-backdrop">
+    <div class="modal-backdrop" data-modal>
       <div class="modal">
-        <button class="modal-close-button" type="button">
+        <button class="modal-close-button" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -816,7 +830,9 @@
               </span>
               <span>
                 I accept the terms and conditions of the
-              <a class="application-form-policy-link" href="">Privacy Policy</a>
+                <a class="application-form-policy-link" href=""
+                  >Privacy Policy</a
+                >
               </span>
             </label>
           </div>
@@ -826,7 +842,7 @@
         </form>
       </div>
     </div>
-
     <!-- /Modal window-->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
